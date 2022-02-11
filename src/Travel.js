@@ -1,11 +1,11 @@
 import React from "react"
  
-function NewComponent(props) {
+function Travel(props) {
   return (
     <div>
-      <h1>New Component</h1>
+      <h1>Travel</h1>
     </div>
   )
 }
  
-export default NewComponent;
+export default Travel;
