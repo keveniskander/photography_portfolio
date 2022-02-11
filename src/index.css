@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+nav{ 
+  margin:0
+}
+
+.home{
+  background-image: url("media/ROM.jpg")!important;
+  background-size: cover; 
+  width: auto; 
+  height: 100%;                    /* <------ */
+  background-repeat: no-repeat;
+  background-position: center center; 
+  position: relative;
+}
