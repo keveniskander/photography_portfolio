@@ -11,8 +11,7 @@ import './App.css';
  
 function App() {
   return (
-    <body>
-      <section className='home'>
+      
         <BrowserRouter>
           <nav style={{ margin: 10 }}>
           <Link to="/" style={{ padding: 5 }}>
@@ -32,9 +31,7 @@ function App() {
           </Routes>
 
         </BrowserRouter>
-      </section>
-    </body>
-    
+        
   );
 }
  

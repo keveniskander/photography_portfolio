@@ -16,12 +16,14 @@ nav{
   margin:0
 }
 
-.home{
+html{
   background-image: url("media/ROM.jpg")!important;
+  background-color: #1f2029;
   background-size: cover; 
   width: auto; 
   height: 100%;                    /* <------ */
   background-repeat: no-repeat;
   background-position: center center; 
+  /* -webkit-transition: all 200ms linear; */
   position: relative;
 }
