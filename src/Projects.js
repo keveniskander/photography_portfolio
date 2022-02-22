@@ -1,5 +1,5 @@
 import React from "react"
-import background from '../src/images/ROM.jpg'
+import background from '../src/images/ROM_copy.jpg'
  
 function Projects(props) {
   return (

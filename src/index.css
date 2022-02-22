@@ -44,6 +44,7 @@ html{
 
 .background {
   /* src: url(images/ROM_copy.jpg); */
+  /* NEED TO EDIT IMAGE IN PHOTOSHOP TO GET THE RIGHT HEIGHT (EDIT PIXEL HEIGHT)!!! */
   margin: auto;
   position: absolute;
   top: -430px;
@@ -51,7 +52,7 @@ html{
   right: 0;
   width: 2500px;
   overflow: hidden;
-  filter: contrast(115%) sepia(40%);
+  filter: contrast(90%) sepia(40%);
 }
 
 h1 {
