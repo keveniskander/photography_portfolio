@@ -23,7 +23,7 @@ function Projects(props) {
             </div>
           <div class="portfolio-container">
             <div class="p-container">
-              <p>recent work</p>
+              <p class="p1">latest</p>
             </div>
             <div class="photography-portfolio">
               <img src="" class="img-left"/>

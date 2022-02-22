@@ -53,3 +53,40 @@ html{
   overflow: hidden;
   filter: contrast(115%) sepia(40%);
 }
+
+h1 {
+  font-weight:normal;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 16px;
+  font-family: 'Quicksand', sans-serif;
+  color: #1f2029;
+  font-size: 35px;
+}
+
+.p1{
+  text-transform: capitalize;
+  font-size: 25px;
+  text-align: center;
+}
+
+.portfolio-container {
+  margin: auto;
+  position: absolute;
+  top: 300px;
+  left: 0;
+  right: 0;
+  width: 670px;
+  height: 1000px;
+  background-color: #fff;
+  box-shadow: 12px 0 38px -4px rgba(142, 142, 142, 0.1), -12px 0 38px -4px rgba(142, 142, 142, 0.1);
+}
+
+.img-left {
+  float: left;
+}
+
+.img-right{
+  float: right;
+}
+
