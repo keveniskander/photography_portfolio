@@ -8,25 +8,16 @@ function Projects(props) {
             <img class="background" src={background}/>
             
           
-
+        
             <div class="h1-container">
               <h1>ByKevo</h1>
             </div>
-            <div class="h1-container">
-              <h1>collection</h1>
-            </div>
-
             <div class="h2-container">
-              <h2>OTB</h2>
+              <h2>collection</h2>
             </div>
 
-            <div class="col-12 text-center mt-4 mt-lg-5">
-              <p>
-                <span class="travel hover-target">travel</span> 
-                <span class="wildlife hover-target">wildlife</span> 
-                <span class="nature hover-target">nature</span>
-              </p>
-            </div>
+
+            
             <div class="portfolio-container">
               <div class="p-container">
                 <p class="p1">latest</p>

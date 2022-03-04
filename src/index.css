@@ -61,9 +61,26 @@ h1 {
   text-align: center;
   letter-spacing: 16px;
   font-family: 'Quicksand', sans-serif;
-  color: #f1f2f8;
+  color: #f1f2f8e1;
   font-size: 35px;
-  position: absolute;
+  position: fixed;
+  left:0;
+  right:0;
+  top:0;
+}
+
+h2{
+  font-weight:normal;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 16px;
+  font-family: 'Quicksand', sans-serif;
+  color: #f1f2f8e1;
+  font-size: 30px;
+  position: fixed;
+  left:0;
+  right:0;
+  
 }
 
 .p1{
@@ -91,4 +108,3 @@ h1 {
 .img-right{
   float: right;
 }
-
