@@ -61,8 +61,9 @@ h1 {
   text-align: center;
   letter-spacing: 16px;
   font-family: 'Quicksand', sans-serif;
-  color: #1f2029;
+  color: #f1f2f8;
   font-size: 35px;
+  position: absolute;
 }
 
 .p1{
