@@ -1,7 +1,7 @@
 import React from "react"
 import background from '../src/images/ROM_copy_BW.jpg'
  
-function Projects(props) {
+function Places(props) {
   return (
         <section class="main-section">
           <div class="main-div">
@@ -20,7 +20,7 @@ function Projects(props) {
             
             <div class="portfolio-container">
               <div class="p-container">
-                <p class="p1">latest</p>
+                <p class="p1">Places</p>
               </div>
               <div class="photography-portfolio">
                 <img src="" class="img-left"/>
@@ -39,4 +39,4 @@ function Projects(props) {
   )
 }
  
-export default Projects;
+export default Places;

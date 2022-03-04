@@ -24,7 +24,7 @@ nav{
 
 html{
   /* background-image: url("media/ROM.jpg")!important; */
-  background-color: #1f2029;
+  background-color: #fff;
   background-size: cover; 
   width: auto; 
   height: 100%;                    /* <------ */
@@ -66,7 +66,7 @@ h1 {
   position: fixed;
   left:0;
   right:0;
-  top:0;
+  top: 100px;;
 }
 
 h2{
@@ -76,10 +76,11 @@ h2{
   letter-spacing: 16px;
   font-family: 'Quicksand', sans-serif;
   color: #f1f2f8e1;
-  font-size: 30px;
+  font-size: 15px;
   position: fixed;
   left:0;
   right:0;
+  top: 160px;
   
 }
 
@@ -94,7 +95,7 @@ h2{
   position: absolute;
   top: 300px;
   left: 0;
-  right: 0;
+  right: 26px;
   width: 670px;
   height: 1000px;
   background-color: #fff;
