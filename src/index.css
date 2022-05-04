@@ -96,16 +96,26 @@ h2{
   top: 300px;
   left: 0;
   right: 26px;
-  width: 670px;
+  width: 640px;
   height: 1000px;
   background-color: #fff;
   box-shadow: 12px 0 38px -4px rgba(142, 142, 142, 0.1), -12px 0 38px -4px rgba(142, 142, 142, 0.1);
 }
 
 .img-left {
+  width: 230px;
+  height: 320px;
   float: left;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  filter: contrast(90%) sepia(40%);
 }
 
 .img-right{
+  width: 230px;
+  height: 320px;
   float: right;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  filter: contrast(90%) sepia(40%);
 }

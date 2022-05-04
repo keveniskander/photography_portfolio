@@ -12,7 +12,7 @@ function App() {
   return (
       
         <BrowserRouter>
-          <nav style={{ margin: 10, textAlign:'center', left:'-26px'}}>
+          <nav style={{ margin: 10, textAlign:'center'}}>
           <Link to="/" style={{ padding: 5 }}>
             Places
           </Link>
