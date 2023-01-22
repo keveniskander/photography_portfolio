@@ -25,10 +25,10 @@ function Places(props) {
                 <p class="p1">Places</p>
               </div>
               <div class="photography-portfolio">
-                <img src={places1} class="img-left"/>
-                <img src={places2} class="img-right"/>
-                <img src="" class="img-left"/>
-                <img src="" class="img-right"/>
+                <img src={places1} class="img-left" id="photo1"/>
+                <img src={places2} class="img-right" id="photo2"/>
+                <img src="" class="img-left" id="photo3"/>
+                <img src="" class="img-right" id="photo4"/>
                 
               </div>
             </div>

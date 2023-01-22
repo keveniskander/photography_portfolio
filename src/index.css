@@ -100,6 +100,17 @@ h2{
   height: 800px;
   background-color: #fff;
   box-shadow: 12px 0 38px -4px rgba(142, 142, 142, 0.1), -12px 0 38px -4px rgba(142, 142, 142, 0.1);
+  overflow-y: hidden;
+}
+
+
+
+#photo1:hover + #photo2{
+  display :none !important;
+}
+
+#photo2:hover + #photo1{
+  display: none !important;
 }
 
 .img-left {
@@ -110,6 +121,7 @@ h2{
   margin-bottom: 50px;
   filter: contrast(90%) sepia(60%);
   transition: all .3s ease-in-out;
+  position: unset;
 }
 
 .img-left:hover{
@@ -120,7 +132,9 @@ h2{
     -moz-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
   cursor: pointer;
+  
 }
+
 
 .img-right{
   width: 230px;
@@ -129,6 +143,8 @@ h2{
   margin-bottom: 50px;
   margin-right: 50px;
   filter: contrast(90%) sepia(60%);
+  transition: all .3s ease-in-out;
+ 
 }
 
 .img-right:hover{
@@ -139,4 +155,8 @@ h2{
     -moz-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
   cursor: pointer;
+  z-index:10;
 }
+
+
+
