@@ -29,8 +29,7 @@ function Places(props) {
                 <img src={places2} class="img-right"/>
                 <img src="" class="img-left"/>
                 <img src="" class="img-right"/>
-                <img src="" class="img-left"/>
-                <img src="" class="img-right"/>
+                
               </div>
             </div>
           </div>
