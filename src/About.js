@@ -1,9 +1,10 @@
 import React from "react";
+import './about.css'; // Import the CSS file for the About page
 import myPicture from '../src/images/myPicture.jpg'; // Replace with the actual path to your picture
 
 function About(props) {
   return (
-    <div className="about-section">
+    <section className="about-section">
       <div className="about-container">
         <img src={myPicture} alt="My Picture" className="about-picture" />
         <div className="about-text">
@@ -25,7 +26,7 @@ function About(props) {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
