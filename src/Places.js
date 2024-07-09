@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Lightbox from "react-image-lightbox";
 import 'react-image-lightbox/style.css';
+import Navbar from "./Navbar";
 import background from '../src/images/ROM_copy_BW.jpg';
 import places1 from '../src/images/2021-10-21-0043.jpg';
 import places2 from '../src/images/2021-10-21-0045.jpg';
@@ -18,6 +19,7 @@ function Places(props) {
 
   return (
     <>
+      <Navbar />
       <section className="main-section">
         <div className="main-div">
           <img className="background" src={background} alt="Background" />
