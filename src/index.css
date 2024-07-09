@@ -35,7 +35,7 @@ html {
 .main-section {
   position: relative;
   width: 100%;
-  height: 92vh; /* Adjust height as necessary */
+  height: 102vh; /* Adjust height as necessary */
   overflow: hidden;
   background-color: #fff;
 }
