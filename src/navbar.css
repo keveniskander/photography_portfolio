@@ -47,7 +47,7 @@ ul {
   padding-right: 2rem;
 }
 
-.nav {
+.navbar {
   width: 100vw;
   height: 80px;
   display: flex;
@@ -59,7 +59,7 @@ ul {
   position: relative;
 }
 
-.nav a {
+.navbar a.logo {
   display: flex;
   align-items: center;
 }
@@ -79,6 +79,8 @@ ul {
   width: 24px;
   transition: transform 140ms ease-in-out;
   cursor: pointer;
+  position: absolute;
+  right: 1rem;
 }
 
 .hamburger.active {
