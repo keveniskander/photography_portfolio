@@ -127,3 +127,11 @@ h2 {
 .img-right {
   width: 100%;
 }
+hr {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  width: 100%;
+}

@@ -32,7 +32,6 @@ function Places() {
           </div>
         </div>
       </section>
-
       <section className="portfolio-section">
         <div className="portfolio-container">
           <div className="p-container">
@@ -49,6 +48,7 @@ function Places() {
               </div>
             </Link>
           </div>
+          <hr></hr>
           <div className="article">
             <Link to="/article2" className="article-link">
               <div className="article-content" onClick={() => openLightbox(1)}>
