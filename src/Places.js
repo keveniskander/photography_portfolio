@@ -37,6 +37,19 @@ function Places(props) {
           <div className="p-container">
             <p className="p1">Places</p>
           </div>
+        
+          <p>We drove through the somewhat Latin, mostly Slavic mountains of Romania to find ourselves faced with this majestic grizzly resolve. “Ursus”
+             is their name, and concidentally the name of their beer. While we complained about the poor visibility and slippery roads, these boorish
+              brown coated elegant killers sat soaked in dewdrops, sluggishly picking at berries. It drove me mad with envy.
+
+<br></br>A warm Italian embrace amidst the cold mountains of Brashov. True love knows no bounds, and somehow these two find themselves standing face to
+ face on the old cobblestone. Now that’s amore!
+
+ <br></br>Somewhere amidst this wildscape is a mountain goat. Or maybe a wild rodent creeping under the fog. As the mountains skip by my windshield, I'm left wondering if I
+ every woke up this morning in Sibiu, or if this is some strange, illusive, subconscious float on Bâlea Lake. 
+
+
+</p>
           <div className="photography-portfolio">
             {images.map((image, index) => (
               <img
