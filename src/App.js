@@ -3,6 +3,8 @@ import { BrowserRouter, Route, Routes, Link, useLocation } from 'react-router-do
 import Places from './Places.js';
 import Travel from './Travel.js';
 import About from './About.js';
+import Article1 from './Article1';
+import Article2 from './Article2';
 import './App.css';
 
 function App() {
@@ -13,6 +15,8 @@ function App() {
         <Route path="/" element={<Places />} />
         <Route path="/travel" element={<Travel />} />
         <Route path="/about" element={<About />} />
+        <Route path="/article1" element={<Article1 />} />
+        <Route path="/article2" element={<Article2 />} />
       </Routes>
     </BrowserRouter>
   );

@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+.portfolio-section {
+  padding: 20px;
+  background-color: #F7F4EE; /* Background color to show through the space */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.portfolio-container {
   display: flex;
   flex-direction: column;
+  gap: 1in; /* Space between articles - about an inch */
+  background-color: transparent; /* Ensure the background color of the section shows through */
+}
+
+.article {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  transition: transform 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
+.article-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.article-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.article-text {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.article-text h3 {
+  font-family: 'CursiveFontName'; /* Replace with your cursive font */
+  color: red;
+}
+
+.article-text h2 {
+  font-size: 2em;
+  margin: 0.5em 0;
+}
+
+.article-text p {
+  margin: 0.5em 0;
+}
+
+.article-text .learn-more {
+  color: blue;
+  text-decoration: underline;
+}
+
+.article-image {
+  flex: 1;
+  max-width: 50%;
+  filter: contrast(90%) sepia(60%);
+  transition: all .3s ease-in-out;
+}
+
+.article:hover .article-image {
+  filter: none; /* Normal on hover */
+  transform: scale(1.02); /* Slightly enlarge the image on hover */
 }

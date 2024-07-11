@@ -1,0 +1,21 @@
+.places-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .places-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .places-image {
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .places-image:hover {
+    transform: scale(1.05);
+  }

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 import Lightbox from "react-image-lightbox";
 import 'react-image-lightbox/style.css';
 import Navbar from "./Navbar";
@@ -6,9 +7,9 @@ import background from '../src/images/ROM_copy_BW.jpg';
 import places1 from '../src/images/2021-10-21-0043.jpg';
 import places2 from '../src/images/2021-10-21-0045.jpg';
 
-const images = [places1, places2, /* Add other image paths here */];
+const images = [places1, places2];
 
-function Places(props) {
+function Places() {
   const [isOpen, setIsOpen] = useState(false);
   const [photoIndex, setPhotoIndex] = useState(0);
 
@@ -35,32 +36,30 @@ function Places(props) {
       <section className="portfolio-section">
         <div className="portfolio-container">
           <div className="p-container">
-            <p className="p1">Places</p>
           </div>
-        
-          <p>We drove through the somewhat Latin, mostly Slavic mountains of Romania to find ourselves faced with this majestic grizzly resolve. “Ursus”
-             is their name, and concidentally the name of their beer. While we complained about the poor visibility and slippery roads, these boorish
-              brown coated elegant killers sat soaked in dewdrops, sluggishly picking at berries. It drove me mad with envy.
-
-<br></br>A warm Italian embrace amidst the cold mountains of Brashov. True love knows no bounds, and somehow these two find themselves standing face to
- face on the old cobblestone. Now that’s amore!
-
- <br></br>Somewhere amidst this wildscape is a mountain goat. Or maybe a wild rodent creeping under the fog. As the mountains skip by my windshield, I'm left wondering if I
- every woke up this morning in Sibiu, or if this is some strange, illusive, subconscious float on Bâlea Lake. 
-
-
-</p>
-          <div className="photography-portfolio">
-            {images.map((image, index) => (
-              <img
-                key={index}
-                src={image}
-                className={`img-${index % 2 === 0 ? 'left' : 'right'}`}
-                id={`photo${index + 1}`}
-                alt={`Place ${index + 1}`}
-                onClick={() => openLightbox(index)}
-              />
-            ))}
+          <div className="article">
+            <Link to="/article1" className="article-link">
+              <div className="article-content" onClick={() => openLightbox(0)}>
+                <div className="article-text">
+                  <h3>Article 1 Title</h3>
+                  <p>Short description for Article 1.</p>
+                  <p className="learn-more">LEARN MORE</p>
+                </div>
+                <img src={places1} alt="Article 1" className="article-image" />
+              </div>
+            </Link>
+          </div>
+          <div className="article">
+            <Link to="/article2" className="article-link">
+              <div className="article-content" onClick={() => openLightbox(1)}>
+                <div className="article-text">
+                  <h3>Article 2 Title</h3>
+                  <p>Short description for Article 2.</p>
+                  <p className="learn-more">LEARN MORE</p>
+                </div>
+                <img src={places2} alt="Article 2" className="article-image" />
+              </div>
+            </Link>
           </div>
         </div>
       </section>
