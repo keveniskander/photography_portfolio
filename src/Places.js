@@ -40,8 +40,8 @@ function Places() {
             <Link to="/article1" className="article-link">
               <div className="article-content" onClick={() => openLightbox(0)}>
                 <div className="article-text">
-                  <h3>Article 1 Title</h3>
-                  <p>Short description for Article 1.</p>
+                  <h3>Journey to Brașov</h3>
+                  <p>The Eastern European Stretch</p>
                   <p className="learn-more">LEARN MORE</p>
                 </div>
                 <img src={places1} alt="Article 1" className="article-image" />

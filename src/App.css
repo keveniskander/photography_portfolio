@@ -41,8 +41,11 @@
 }
 
 .article-text h3 {
-  font-family: 'CursiveFontName'; /* Replace with your cursive font */
-  color: red;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 300;
+  font-style:oblique;
+  font-size: 18pt;
+  color: black;
 }
 
 .article-text h2 {
@@ -52,10 +55,16 @@
 
 .article-text p {
   margin: 0.5em 0;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 12pt;
+  color: black;
 }
 
 .article-text .learn-more {
-  color: blue;
+  color: #B3B9C0;
+  font-size: 10;
   text-decoration: underline;
 }
 

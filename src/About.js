@@ -13,8 +13,19 @@ function About(props) {
           <div className="about-text">
             <h1>BYKEVO COLLECTIVE</h1>
             <p>
-              You are looking at the BYKEVO COLLECTION, a project that has been very near and dear to my heart for many years.
-              My memories, my stories, my mood. Captured, catalogued and manipulated by a less than competent lense. Welcome to the COLLECTIVE!
+            Very rarely do we have the privilege of witnessing the rawest forms of human expression. 
+            Welcome to an experiment driven by genuine human experience. Expression, experiment, experience. 
+            From this point on, I will refer to this as the triple ‘E’, or a screeching “EEE!” if you will.  
+            The BYKEVO collection is my take on the ideal memory: flawed yet strangely sexy
+            <br></br><br></br>
+             Welcome to my art installation where I will be taking a trip down a very unfamiliar, primitive lane 
+            (at least to my generation) and leaving out the “how do I look?” second takes. 
+            For every roll of 35mm shot, there will be a collection released with a subsequent article surrounding the pieces 
+            being showcased. For every memory captured, good or bad, I will allow it to exist in this world, the same way it was created… 
+            spontaneously. I refuse to allow ego or embarrassment taint my perspective (also known as the double ‘E’). 
+            This is a vision without lip fillers, without unsolicited opinions and without attention seeking sociopathy. 
+            This is a collection of memories captured by Kevo. The BYKEVO collection. 
+
             </p>
           </div>
         </div>

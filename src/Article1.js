@@ -7,7 +7,7 @@ const Article1 = () => {
     <>
       <Navbar />
       <div className="article-container">
-        <h1>Article 1</h1>
+        <h1>Journey to Brașov</h1>
         <p>Content of Article 1...</p>
       </div>
     </>
