@@ -4,7 +4,7 @@ import Lightbox from "react-image-lightbox";
 import 'react-image-lightbox/style.css';
 import Navbar from "./Navbar";
 import background from '../src/images/ROM_copy_BW.jpg';
-import places1 from '../src/images/2021-10-21-0043.jpg';
+import places1 from '../src/images/4040/000040400021.jpg';
 import places2 from '../src/images/2021-10-21-0045.jpg';
 
 const images = [places1, places2];
@@ -40,8 +40,8 @@ function Places() {
             <Link to="/article1" className="article-link">
               <div className="article-content" onClick={() => openLightbox(0)}>
                 <div className="article-text">
-                  <h3>Journey to Brașov</h3>
-                  <p>The Eastern European Stretch</p>
+                  <h3>2024 Volume 1</h3>
+                  <p>The Eastern Canadian Stretch</p>
                   <p className="learn-more">LEARN MORE</p>
                 </div>
                 <img src={places1} alt="Article 1" className="article-image" />

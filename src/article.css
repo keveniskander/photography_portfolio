@@ -1,0 +1,67 @@
+/* Ensure the background color covers the entire viewport */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #e0e0e0; /* Grey background */
+  }
+  
+  body {
+    font-family: 'Quicksand', sans-serif;
+    color: #333;
+  }
+  
+  .article-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .article-image-container {
+    text-align: center; /* Center images */
+    margin-bottom: 40px;
+  }
+  
+  .article-image {
+    width: 100%;
+    max-width: 800px; /* Make images larger */
+    height: auto;
+    /*filter: sepia(100%); */
+    transition: filter 0.3s ease, transform 0.3s ease;
+  }
+  
+  .article-image:hover {
+    filter: none;
+    transform: scale(1.05);
+  }
+  
+  .image-description {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #666;
+  }
+  
+  .article-divider {
+    width: 60%;
+    height: 2px;
+    background-color: #333;
+    margin: 40px auto;
+  }
+  
+  .text-section {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
