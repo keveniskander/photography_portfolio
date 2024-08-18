@@ -1,21 +1,52 @@
-.places-container {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .places-grid {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .places-image {
-    width: 300px;
-    height: auto;
-    cursor: pointer;
-    transition: transform 0.3s;
-  }
-  
-  .places-image:hover {
-    transform: scale(1.05);
-  }
+.article-container {
+  background-color: grey;
+  padding: 20px;
+}
+
+.article-container h1 {
+  text-align: center;
+  color: white;
+}
+
+.article-text-block {
+  width: 100%;
+  max-width: 800px; /* Adjust as needed to match image width */
+  margin: 20px auto;
+  text-align: center;
+  color: white;
+  font-family: 'YourFontName', sans-serif; /* Replace with desired font */
+}
+
+.article-text-block h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.article-text-block p {
+  font-size: 1em;
+  margin: 0;
+}
+
+.article-image-container {
+  margin: 20px 0;
+}
+
+.article-image {
+  width: 100%;
+  max-width: 700px; /* Adjust as needed */
+  display: block;
+  margin: 0 auto;
+  filter: sepia(100%);
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.article-image:hover {
+  filter: none;
+  transform: scale(1.05);
+}
+
+.article-divider {
+  border-top: 1px solid white;
+  margin: 20px 0;
+  width: 100%;
+}

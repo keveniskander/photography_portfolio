@@ -26,7 +26,7 @@ function Header() {
   const location = useLocation();
 
   // Conditionally hide the navbar on certain routes
-  const hideNavbarRoutes = ["/", "/about", "/travel"];
+  const hideNavbarRoutes = ["/", "/about", "/travel", "/article1", "/article2"];
   const shouldHideNavbar = hideNavbarRoutes.includes(location.pathname);
 
   return (
