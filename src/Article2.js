@@ -25,7 +25,12 @@ const ArticleWithImages = () => {
       <Navbar />
       <div className="article-container">
         <h1>2024 Closing Ceremonies</h1>
-        <div className="article-text">Most </div>
+        <div className="article-text">Ask me anything about the 2024 Summer Olympic games and I wouldn't be able to tell you
+          much. Ask me about the 2024 Summer Bachelor games, and I still wouldn't be able to recount a whole lot. Thankfully, 
+          we caught some of it on film. Based on the photos that came back from the lab, I'd say we did our countries proud. 
+          Cheers to the athletes that left it all on the line, and cheers to the groom. Elie & Juliana 4ever baby!
+          
+        </div>
         {images.map((image, index) => (
           <div key={index} className="article-image-container">
             <img

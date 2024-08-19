@@ -26,18 +26,26 @@ function Navbar() {
   return (
     <header>
       <nav className="navbar">
+        {/* <Link to="/" className="logo" title="Go to Home">
+          <div className="home-icon">
+            <div className="home-icon-line horizontal"></div>
+            <div className="home-icon-line vertical"></div>
+          </div>
+        </Link> */}
         <Link to="/" className="logo" title="Visit Company's site">
           <span className="sr-only">Company Name</span>
-          <img width="64" height="64" src="https://placehold.co/64x64" alt="Company's Logo" title="Company Name" />
+          <div className="camera-icon"></div>
         </Link>
+
         <button id="hamburger" type="button" className={`hamburger ${isMenuOpen ? 'active' : ''}`} aria-pressed={isMenuOpen} aria-label="Toggle Menu" onClick={toggleMenu}>
           <span className="sr-only">Menu</span>
           <span className="line"></span>
         </button>
         <div id="dropdown" className={`dropdown ${isMenuOpen ? 'active' : ''}`}>
           <ul id="dropdown-content" className={`dropdown-content ${isMenuOpen ? 'active' : ''}`} role="menu" aria-label="Main Menu">
-            <li role="none"><Link role="menuitem" to="/" onClick={toggleMenu}>Places</Link></li>
-            <li role="none"><Link role="menuitem" to="/travel" onClick={toggleMenu}>People</Link></li>
+            <li role="none"><Link role="menuitem" to="/" onClick={toggleMenu}>Home</Link></li>
+            <li role="none"><Link role="menuitem" to="/article1" onClick={toggleMenu}>Article1</Link></li>
+            <li role="none"><Link role="menuitem" to="/article2" onClick={toggleMenu}>Article2</Link></li>
             <li role="none"><Link role="menuitem" to="/about" onClick={toggleMenu}>About</Link></li>
           </ul>
         </div>
