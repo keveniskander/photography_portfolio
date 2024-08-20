@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Navbar from './Navbar';
-import './article.css'; // Assuming you have the same CSS file for styling
+import './article.css'; 
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
 
@@ -8,7 +8,7 @@ const importAll = (r) => {
   return r.keys().map(r);
 };
 
-// Import images from the new folder
+
 const images = importAll(require.context('../src/images/4039', false, /\.jpg$/));
 
 const ArticleWithImages = () => {

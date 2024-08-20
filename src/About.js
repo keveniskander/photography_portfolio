@@ -16,10 +16,10 @@ function About(props) {
             Very rarely do we have the privilege of witnessing the rawest forms of human expression. 
             Welcome to an experiment driven by genuine human experience. Expression, experiment, experience. 
             From this point on, I will refer to this as the triple ‘E’, or a screeching “EEE!” if you will.  
-            The BYKEVO collection is my take on the ideal memory: flawed yet strangely sexy
+            The BYKEVO collection is my take on the ideal memory: flawed yet strangely sexy.
             <br></br><br></br>
-             Welcome to my art installation where I will be taking a trip down a very unfamiliar, primitive lane 
-            (at least to my generation) and leaving out the “how do I look?” second takes. 
+            Welcome to my art installation where I will be taking a trip down a very unfamiliar, authentic lane 
+            while leaving out the “how do I look?” second takes. 
             For every roll of 35mm shot, there will be a collection released with a subsequent article surrounding the pieces 
             being showcased. For every memory captured, good or bad, I will allow it to exist in this world, the same way it was created… 
             spontaneously. I refuse to allow ego or embarrassment taint my perspective (also known as the double ‘E’). 

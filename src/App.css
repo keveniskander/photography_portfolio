@@ -1,6 +1,6 @@
 .portfolio-section {
   padding: 20px;
-  background-color: #F7F4EE; /* Background color to show through the space */
+  background-color: #eaeaea; /* Background color to show through the space */
 }
 
 .portfolio-container {
@@ -71,11 +71,35 @@
 .article-image {
   flex: 1;
   max-width: 50%;
-  filter: contrast(90%) sepia(60%);
+  filter: contrast(90%) grayscale(60%);
   transition: all .3s ease-in-out;
+}
+
+@media (max-width: 767px) {
+  .article-image {
+    filter: none; /* Remove sepia filter on mobile */
+  }
 }
 
 .article:hover .article-image {
   filter: none; /* Normal on hover */
   transform: scale(1.02); /* Slightly enlarge the image on hover */
+}
+
+
+/* The main content should grow to fill the remaining space */
+.main-content {
+  flex: 1;
+}
+
+/* Ensure the footer is always at the bottom */
+.footer {
+  background-color: #9a9a9a;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  font-family: 'QuickSand';
 }

@@ -36,7 +36,6 @@
   max-width: 700px; /* Adjust as needed */
   display: block;
   margin: 0 auto;
-  filter: sepia(100%);
   transition: filter 0.3s ease, transform 0.3s ease;
 }
 

@@ -45,16 +45,17 @@ html {
   overflow: hidden;
   background-color: #fff;
 }
-
 .background {
-  margin: auto;
   position: absolute;
-  top: -30px;
-  left: 0;
+  top: 0;
   right: 0;
-  width: 2500px;
+  height: 100%;
+  width: auto;
+  min-width: 100%;
+  max-width: none;
+  object-fit: cover;
   overflow: hidden;
-  filter: contrast(90%) sepia(40%);
+
 }
 
 .h1-container {
@@ -120,7 +121,7 @@ h2 {
   width: 48%;
   margin-bottom: 10px;
   height: auto;
-  filter: contrast(90%) sepia(40%);
+  
   transition: all .3s ease-in-out;
 }
 

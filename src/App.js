@@ -5,6 +5,7 @@ import Travel from './Travel.js';
 import About from './About.js';
 import Article1 from './Article1';
 import Article2 from './Article2';
+import Footer from './footer.js';
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/article1" element={<Article1 />} />
         <Route path="/article2" element={<Article2 />} />
       </Routes>
+      <Footer /> {/* Include the Footer component here */}
     </BrowserRouter>
   );
 }

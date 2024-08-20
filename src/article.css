@@ -12,7 +12,7 @@
   }
   
   .article-text-start {
-    margin-bottom: 40px; /* Space before the first image */
+    margin-bottom: 0px; /* Space before the first image */
   }
   
   .article-text-middle {
@@ -24,10 +24,11 @@
     margin-bottom: 40px; /* Space between images */
   }
   
-  .article-image {
+/* General styles for all screens */
+.article-image {
     display: block;
     margin: 0 auto;
-    max-width: 100%; /* Ensure images are responsive */
+    max-width: 100%;
     filter: sepia(100%);
     transition: filter 0.3s ease, transform 0.3s ease;
   }
@@ -36,6 +37,14 @@
     filter: none;
     transform: scale(1.05);
   }
+  
+  /* Styles for mobile screens (e.g., max-width 767px) */
+  @media (max-width: 767px) {
+    .article-image {
+      filter: none; /* Remove sepia filter on mobile */
+    }
+  }
+  
   
   .image-description {
     text-align: center;
