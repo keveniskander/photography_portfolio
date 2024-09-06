@@ -46,7 +46,7 @@ const ArticleWithImages = () => {
                 <h2>Summer-Squad</h2>
                 <p>Keven makes a fool of himself, Lina gets her citizenship & Marie takes us on another journey through the great outdoors.
                   The end of this roll is an ode to the simple things in life. A display of national pride at our local Montreal diner
-                  followed by a short hike to help feed the local Milton mosquito population. Yum!
+                  followed by a short hike to help feed the frenzied Milton mosquito population. Yum!
                 </p>
               </div>
             )}
