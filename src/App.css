@@ -1,3 +1,12 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+
 .portfolio-section {
   padding: 20px;
   background-color: #eaeaea; 
@@ -90,6 +99,7 @@
 
 .main-content {
   flex: 1;
+  padding-top: 20px;
 }
 
 
