@@ -1,13 +1,13 @@
 .portfolio-section {
   padding: 20px;
-  background-color: #eaeaea; /* Background color to show through the space */
+  background-color: #eaeaea; 
 }
 
 .portfolio-container {
   display: flex;
   flex-direction: column;
-  gap: 1in; /* Space between articles - about an inch */
-  background-color: transparent; /* Ensure the background color of the section shows through */
+  gap: 1in; 
+  background-color: transparent; 
 }
 
 .article {
@@ -77,22 +77,22 @@
 
 @media (max-width: 767px) {
   .article-image {
-    filter: none; /* Remove sepia filter on mobile */
+    filter: none; 
   }
 }
 
 .article:hover .article-image {
-  filter: none; /* Normal on hover */
-  transform: scale(1.02); /* Slightly enlarge the image on hover */
+  filter: none; 
+  transform: scale(1.02); 
 }
 
 
-/* The main content should grow to fill the remaining space */
+
 .main-content {
   flex: 1;
 }
 
-/* Ensure the footer is always at the bottom */
+
 .footer {
   background-color: #9a9a9a;
   color: #fff;

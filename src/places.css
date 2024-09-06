@@ -10,11 +10,11 @@
 
 .article-text-block {
   width: 100%;
-  max-width: 800px; /* Adjust as needed to match image width */
+  max-width: 800px; 
   margin: 20px auto;
   text-align: center;
   color: white;
-  font-family: 'YourFontName', sans-serif; /* Replace with desired font */
+  font-family: 'YourFontName', sans-serif; 
 }
 
 .article-text-block h2 {
@@ -33,7 +33,7 @@
 
 .article-image {
   width: 100%;
-  max-width: 700px; /* Adjust as needed */
+  max-width: 700px; 
   display: block;
   margin: 0 auto;
   transition: filter 0.3s ease, transform 0.3s ease;

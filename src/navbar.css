@@ -47,8 +47,14 @@ ul {
   padding-right: 2rem;
 }
 
+
 .navbar {
-  width: 100vw;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: #fff; 
   height: 80px;
   display: flex;
   justify-content: space-between;
@@ -56,7 +62,18 @@ ul {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid #000;
-  position: relative;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+
+.navbar-hidden {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.navbar-visible {
+  transform: translateY(0);
+  opacity: 1;
 }
 
 .navbar a.logo {
@@ -71,10 +88,6 @@ ul {
   -webkit-appearance: none;
   border: 0;
   border-radius: 0;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  -o-border-radius: 0;
   height: 24px;
   width: 24px;
   transition: transform 140ms ease-in-out;
@@ -104,6 +117,7 @@ ul {
   background-color: #000;
   transform: rotate(90deg);
 }
+
 
 .dropdown {
   display: flex;
@@ -162,6 +176,7 @@ ul {
   color: inherit;
 }
 
+
 .section {
   width: 100vw;
   height: 100vh;
@@ -176,52 +191,6 @@ ul {
   font-size: 2.5rem;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-    transition: none;
-  }
-}
-/* .home-icon {
-  display: inline-block;
-  width: 22px;
-  height: 22px;
-  position: relative;
-  border-left: 1px solid #000;
-  border-right: 1px solid #000;
-  border-bottom: 1px solid #000;
-  margin-left: 16px;
-  transform: translateY(8px); /* To center the house 
-}
-
-.home-icon::before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  border-left: 1px solid #000;
-  transform: rotate(50deg);
-  top: -30%;
-  left: -9%;
-}
-
-.home-icon::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  border-right: 1px solid #000;
-  transform: rotate(-50deg);
-  top: -30%;
-  right: -9%;
-}
-  */
- 
 
 .camera-icon {
   display: inline-block;
@@ -229,8 +198,8 @@ ul {
   height: 22px;
   position: relative;
   margin-left: 16px;
-  transform: translateY(1px); /* To center the camera */
-  border: 1px solid #000; /* Main camera body */
+  transform: translateY(1px); 
+  border: 1px solid #000; 
   border-radius: 2px;
 }
 
@@ -243,7 +212,7 @@ ul {
   top: -6px;
   left: 50%;
   transform: translateX(-50%);
-  border-radius: 1px; /* Camera lens area */
+  border-radius: 1px;
 }
 
 .camera-icon::after {
@@ -254,6 +223,18 @@ ul {
   border: 1px solid #000;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); /* Camera lens */
+  transform: translate(-50%, -50%); 
 }
 
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+    transition: none;
+  }
+}

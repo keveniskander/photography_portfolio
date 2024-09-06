@@ -1,7 +1,7 @@
 import React from "react";
-import './about.css'; // Import the CSS file for the About page
-import myPicture from '../src/images/OIG1.jpg'; // Replace with the actual path to your picture
-import Navbar from './Navbar'; // Import the Navbar component
+import './about.css'; 
+import myPicture from '../src/images/OIG1.jpg'; 
+import Navbar from './Navbar'; 
 
 function About(props) {
   return (

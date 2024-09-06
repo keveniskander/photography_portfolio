@@ -6,7 +6,7 @@ import About from './About.js';
 import Article1 from './Article1';
 import Article2 from './Article2';
 import Footer from './footer';
-import ScrollToTop from './ScrollToTop'; // Import ScrollToTop
+import ScrollToTop from './ScrollToTop';
 import './App.css';
 
 function App() {
