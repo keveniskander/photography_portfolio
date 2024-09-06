@@ -5,21 +5,25 @@ import Travel from './Travel.js';
 import About from './About.js';
 import Article1 from './Article1';
 import Article2 from './Article2';
-import Footer from './footer.js';
+import Footer from './footer';
+import ScrollToTop from './ScrollToTop'; // Import ScrollToTop
 import './App.css';
 
 function App() {
   return (
     <BrowserRouter>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Places />} />
-        <Route path="/travel" element={<Travel />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/article1" element={<Article1 />} />
-        <Route path="/article2" element={<Article2 />} />
-      </Routes>
-      <Footer /> {/* Include the Footer component here */}
+      <ScrollToTop /> {/* This will ensure that pages scroll to the top on navigation */}
+      <div className="main-content">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Places />} />
+          <Route path="/travel" element={<Travel />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/article1" element={<Article1 />} />
+          <Route path="/article2" element={<Article2 />} />
+        </Routes>
+      </div>
+      <Footer />
     </BrowserRouter>
   );
 }
@@ -27,7 +31,6 @@ function App() {
 function Header() {
   const location = useLocation();
 
-  // Conditionally hide the navbar on certain routes
   const hideNavbarRoutes = ["/", "/about", "/travel", "/article1", "/article2"];
   const shouldHideNavbar = hideNavbarRoutes.includes(location.pathname);
 
