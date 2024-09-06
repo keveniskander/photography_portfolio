@@ -16,7 +16,7 @@ function About(props) {
             Very rarely do we have the privilege of witnessing the rawest forms of human expression.
             Congrats! You've stumbled upon to a virtual space created to explore an analog world.
             Here, you will find an amateur photographer who makes great use of a few used cameras and maintains 
-            a stubborn insistence that by shooting film and uploading the results to my website, he's somehow 
+            a stubborn insistence that by shooting film and uploading the results to his website, he's somehow 
             better than the average scrapbooking mom of three.
             <br></br><br></br>
             Welcome to an experiment driven by genuine human experience: expression, experiment, experience. 
