@@ -6,8 +6,9 @@ import Navbar from "./Navbar";
 import background from '../src/images/ROM_copy_BW.jpg';
 import places1 from '../src/images/4040/000040400021.jpg';
 import places2 from '../src/images/4039/000040390012.jpg';
+import places3 from '../src/images/02501083/025010830003.jpg';
 
-const images = [places1, places2];
+const images = [places1, places2, places3];
 
 function Places() {
   const [isOpen, setIsOpen] = useState(false);
@@ -62,6 +63,19 @@ function Places() {
             </Link>
           </div>
         </div>
+        <hr></hr>
+        <div className="article">
+            <Link to="/article3" className="article-link">
+              <div className="article-content" onClick={() => openLightbox(1)}>
+                <div className="article-text">
+                  <h3>2023 Volume 1</h3>
+                  <p>A Journey Back</p>
+                  <p className="learn-more">LEARN MORE</p>
+                </div>
+                <img src={places3} alt="Article 3" className="article-image" />
+              </div>
+            </Link>
+          </div>
       </section>
 
       {isOpen && (
