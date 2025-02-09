@@ -70,6 +70,9 @@ function Navbar() {
               <Link role="menuitem" to="/article2" onClick={toggleMenu}>Article2</Link>
             </li>
             <li role="none">
+              <Link role="menuitem" to="/article3" onClick={toggleMenu}>Article3</Link>
+            </li>
+            <li role="none">
               <Link role="menuitem" to="/about" onClick={toggleMenu}>About</Link>
             </li>
           </ul>

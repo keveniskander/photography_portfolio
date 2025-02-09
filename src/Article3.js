@@ -23,9 +23,12 @@ const ArticleWithImages = () => {
     <>
       <Navbar />
       <div className="article-container">
-        <h1>Reflections of 2024</h1>
+        <h1>Literally All Over The Place</h1>
         <div className="article-text">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <p>The chaos of this roll speaks for itself and makes this collection truly unique. Terribly unbalanced photos with incredibly unique perspectives. We start our journey
+            in the dimly lit Parisian streets wondering what the hell optimal lighting looks like. In the end, we're left with this messy showcase and a terrible wine hangover.
+            You may ask: Was it worth it?? -- I invite you to be the judge. 
+          </p>
         </div>
 
         {images.map((image, index) => (
@@ -39,22 +42,23 @@ const ArticleWithImages = () => {
             {/* Insert paragraph after image 11 */}
             {index === 10 && (
               <div className="article-text">
-                <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                <p>I have no recollection of this next grouping of photos and when I received this roll back from the lab, I had more questions than answers. My camera looks to 
+                  have been hijacked by some family at my aunt's house sometime in the late summer of 2023. Its always refreshing to catch a few frames back from the lab that weren't
+                  executed by me, and this is no exception.</p>
               </div>
             )}
             {/* Insert paragraph after image 21 */}
             {index === 20 && (
               <div className="article-text">
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Curabitur pretium tincidunt lacus.</p>
+                <p>Now from my aunts house we're immediately thrown into a journey that begins in the port of Athens. A few frames on, we find ourselves on a blissful voyage
+                  that takes us to our final destination for this exposition: Milos. This small greek island tucked away peacefully behind the chaos tops my list (and this roll) as
+                  the perfect end to a perfect summer.</p>
               </div>
             )}
           </div>
         ))}
 
-        {/* Final paragraph at the end */}
-        <div className="article-text">
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. Totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
-        </div>
+        
       </div>
 
       {isOpen && (
