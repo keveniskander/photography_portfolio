@@ -43,7 +43,7 @@ const ArticleWithImages = () => {
             {index === 10 && (
               <div className="article-text">
                 <p>I have no recollection of this next grouping of photos and when I received this roll back from the lab, I had more questions than answers. My camera looks to 
-                  have been hijacked by some family at my aunt's house sometime in the late summer of 2023. Its always refreshing to catch a few frames back from the lab that weren't
+                  have been hijacked at my aunt's house sometime in the late summer of 2023. Its always refreshing to catch a few frames back from the lab that weren't
                   executed by me and this is no exception.</p>
               </div>
             )}
