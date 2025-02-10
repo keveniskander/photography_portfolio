@@ -25,8 +25,8 @@ const ArticleWithImages = () => {
       <div className="article-container">
         <h1>Literally All Over The Place</h1>
         <div className="article-text">
-          <p>The disorganized, scrappy mess of this roll speaks for itself. It can be sussinctly described as terribly unbalanced photos with incredibly unique perspectives. We start our journey
-            in the dimly lit Parisian streets wondering what the hell optimal lighting looks like. In the end, we're left with this messy showcase and a terrible wine hangover.
+          <p>The disorganized, scrappy mess of a roll speaks for itself. It can be sussinctly described as a grouping of terribly unbalanced photos with incredibly unique perspectives. We start our journey
+            in the dimly lit Parisian streets wondering what the hell optimal lighting looks like. In the end, we're left with a hot dose of nostalgia and a terrible wine hangover.
             You may ask: Was it worth it?? -- I invite you to be the judge. 
           </p>
         </div>
@@ -44,7 +44,7 @@ const ArticleWithImages = () => {
               <div className="article-text">
                 <p>I have no recollection of this next grouping of photos and when I received this roll back from the lab, I had more questions than answers. My camera looks to 
                   have been hijacked by some family at my aunt's house sometime in the late summer of 2023. Its always refreshing to catch a few frames back from the lab that weren't
-                  executed by me, and this is no exception.</p>
+                  executed by me and this is no exception.</p>
               </div>
             )}
             {/* Insert paragraph after image 21 */}
