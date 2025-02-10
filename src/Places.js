@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
-import Lightbox from "react-image-lightbox";
-import 'react-image-lightbox/style.css';
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/dist/styles.css";
 import Navbar from "./Navbar";
 import background from '../src/images/ROM_copy_BW.jpg';
 import places1 from '../src/images/4040/000040400021.jpg';

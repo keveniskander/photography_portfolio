@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Navbar from './Navbar';
 import './article.css'; 
 import Lightbox from "yet-another-react-lightbox";
-import 'react-image-lightbox/style.css';
+import "yet-another-react-lightbox/dist/styles.css";
 
 const importAll = (r) => {
   return r.keys().map(r);
