@@ -25,7 +25,7 @@ const ArticleWithImages = () => {
       <div className="article-container">
         <h1>Literally All Over The Place</h1>
         <div className="article-text">
-          <p>The chaos of this roll speaks for itself and makes this collection truly unique. Terribly unbalanced photos with incredibly unique perspectives. We start our journey
+          <p>The disorganized, scrappy mess of this roll speaks for itself. It can be sussinctly described as terribly unbalanced photos with incredibly unique perspectives. We start our journey
             in the dimly lit Parisian streets wondering what the hell optimal lighting looks like. In the end, we're left with this messy showcase and a terrible wine hangover.
             You may ask: Was it worth it?? -- I invite you to be the judge. 
           </p>
